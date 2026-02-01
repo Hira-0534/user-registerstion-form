@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Dashboard</title>
+<style>
+body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #18a2b8 0%, #0d6efd 100%); display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.dashboard-card { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); text-align: center; width: 400px; animation: fadeIn 0.8s ease-in-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+h1 { color: #18a2b8; margin-bottom: 10px; }
+p { color: #666; margin-bottom: 30px; }
+.status-badge { display: inline-block; background: #d4edda; color: #155724; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; font-weight: bold; margin-bottom: 20px; }
+.logout-btn { display: inline-block; padding: 12px 30px; background-color: #dc3545; color: white; text-decoration: none; border-radius: 5px; transition: background 0.3s; font-weight: bold; }
+.logout-btn:hover { background-color: #a71d2a; }
+</style>
+</head>
+<body>
+<div class="dashboard-card">
+<div class="status-badge">✓ Authenticated</div>
+<h1>Login Successful!</h1>
+<p>Welcome to your personalized dashboard. You have successfully accessed the system.</p>
+<hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+<a href="/login" class="logout-btn">Logout</a>
+</div>
+</body>
+</html>
