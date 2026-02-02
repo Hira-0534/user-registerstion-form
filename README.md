@@ -11,12 +11,13 @@ The project focuses on **server-side authentication**, database connectivity, an
 ## 🛠️ Technologies Used
 
 
-Node.js – JavaScript runtime environment
-Express.js – Web application framework
-MySQL – Relational database
-MySQL Workbench – Database management tool
-HTML5 & CSS3 – Frontend structure and styling
-JavaScript – Client-side validation logic
+**Node.js – JavaScript runtime environment**
+**Express.js – Web application framework
+**
+**MySQL – Relational database**
+**MySQL Workbench – Database management tool**
+**HTML5 & CSS3 – Frontend structure and styling**
+**JavaScript – Client-side validation logic**
 
 ---
 
