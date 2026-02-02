@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project is a **backend-based User Registration and Login system** developed as part of an ** Web Engineering assignment**. The system allows users to register and log in using a **MySQL database** for data storage.
+This project is a **backend-based User Registration and Login system** developed as part of an ** Web Engineering assignment lab 10**. The system allows users to register and log in using a **MySQL database** for data storage.
 
 The project focuses on **server-side authentication**, database connectivity, and API response handling.
 
@@ -12,8 +12,7 @@ The project focuses on **server-side authentication**, database connectivity, an
 
 
 **Node.js – JavaScript runtime environment**
-**Express.js – Web application framework
-**
+**Express.js – Web application framework**
 **MySQL – Relational database**
 **MySQL Workbench – Database management tool**
 **HTML5 & CSS3 – Frontend structure and styling**
