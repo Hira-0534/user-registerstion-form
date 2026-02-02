@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project is a **backend-based User Registration and Login system** developed as part of an **EAD / Web Engineering assignment**. The system allows users to register and log in using a **MySQL database** for data storage.
+This project is a **backend-based User Registration and Login system** developed as part of an ** Web Engineering assignment**. The system allows users to register and log in using a **MySQL database** for data storage.
 
 The project focuses on **server-side authentication**, database connectivity, and API response handling.
 
@@ -10,11 +10,13 @@ The project focuses on **server-side authentication**, database connectivity, an
 
 ## 🛠️ Technologies Used
 
-* Node.js
-* Express.js
-* **MySQL**
-* bcrypt (for password hashing)
-* JSON Web Token (JWT) *(optional)*
+
+Node.js – JavaScript runtime environment
+Express.js – Web application framework
+MySQL – Relational database
+MySQL Workbench – Database management tool
+HTML5 & CSS3 – Frontend structure and styling
+JavaScript – Client-side validation logic
 
 ---
 
@@ -33,7 +35,7 @@ The project focuses on **server-side authentication**, database connectivity, an
 ### 1️⃣ Create Database
 
 ```sql
-CREATE DATABASE user_auth;
+CREATE DATABASE hira;
 ```
 
 ### 2️⃣ Create Users Table
@@ -56,10 +58,6 @@ CREATE TABLE users (
 ```bash
 npm install
 ```
-
-### 2️⃣ Configure Database
-
-* Update MySQL credentials in `db.js`
 
 ### 3️⃣ Run Server
 
